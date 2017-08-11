@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "915305171723",
+    "firebase_url": "https://myfirstchat-c0083.firebaseio.com",
+    "project_id": "myfirstchat-c0083",
+    "storage_bucket": "myfirstchat-c0083.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:915305171723:android:f692ba70681291fd",
+        "android_client_info": {
+          "package_name": "com.example.kazt.basicchat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "915305171723-qhtpktluqarjpcd4uqvhds5ghg7d87hn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDc984TzLPE2VnOyN1nswuaCYZnOoLrzUE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
