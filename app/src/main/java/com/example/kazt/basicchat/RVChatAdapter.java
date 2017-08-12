@@ -31,7 +31,7 @@ public class RVChatAdapter extends RecyclerView.Adapter<RVChatAdapter.MyViewHold
 
     @Override
     public void onBindViewHolder(MyViewHolder holder, int position) {
-        holder.tvUsername.setText(chats.get(position).getUsername());
+        holder.tvUsername.setText(chats.get(position).getUsername() + " mengatakan : ");
         holder.tvContent.setText(chats.get(position).getContent());
     }
 

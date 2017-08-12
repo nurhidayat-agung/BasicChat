@@ -10,7 +10,7 @@ import android.widget.Toast;
 
 public class Login extends AppCompatActivity {
     private TextInputEditText userName,passWord;
-    private Button btnLogin, btnSettPass;
+    private Button btnLogin, btnSettPass, btnChngPass;
     private SharedPref sharedPref;
 
 
@@ -22,6 +22,7 @@ public class Login extends AppCompatActivity {
         passWord = (TextInputEditText) findViewById(R.id.tie_pass);
         btnLogin = (Button) findViewById(R.id.btn_login);
         btnSettPass = (Button) findViewById(R.id.btn_setpass);
+        btnChngPass = (Button) findViewById(R.id.btn_changepass);
 
         sharedPref = new SharedPref(Login.this);
 
@@ -61,6 +62,13 @@ public class Login extends AppCompatActivity {
                 }else {
                     Toast.makeText(Login.this, "Username salah", Toast.LENGTH_SHORT).show();
                 }
+            }
+        });
+
+        btnChngPass.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(Login.this, ChangePass.class));
             }
         });
     }
